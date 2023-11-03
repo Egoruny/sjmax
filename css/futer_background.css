@@ -1,0 +1,50 @@
+.futer_background {
+    background-image: url(../img/bgg.png);
+    min-height: 540px;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    align-items: center;
+    
+}
+
+.futer_background_wrapper_want_to_build {
+    max-width: 350px;
+    color: #48555B;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.15px;
+}
+.futer_background_wrapper_get_in_toch {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hz {
+    height: 10px;
+    margin-top: 100px;
+}
