@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 237, 237);
+}
+
+button {
+    font: inherit;
+    width: 150px;
+    height: 40px;
+    background-color:#00A4E5;
+    border-color: #00A4E5;
+    color: #FFF;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.5px;
+cursor: pointer;
+}
+
+.tasks {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.task{
+    display: none;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
